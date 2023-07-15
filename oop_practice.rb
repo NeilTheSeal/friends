@@ -1,10 +1,10 @@
 class Person
     attr_reader :name, :age;
 
-    def initialize(name, age)
+    def initialize(name, age, language = "English")
         @name = name;
         @age = age;
-        @language = "English"
+        @language = language;
     end
 
     def celebrate_birthday
